@@ -10,7 +10,7 @@ import com.google.gson.reflect.TypeToken
 
 object PreferencesManager {
     lateinit var preferences: SharedPreferences
-    const val DEFAULT_MEDIA_SOURCE_URL = "https://raw.githubusercontent.com/spocky/projectivy-plugin-wallpaper-overflight/refs/heads/main/videos.json"
+    const val DEFAULT_MEDIA_SOURCE_URL = "https://raw.githubusercontent.com/jilsandercoat/projectivy-plugin-wallpaper-overflight/refs/heads/main/videos.json"
     const val DEFAULT_CACHE_DURATION_HOURS = 24
 
     fun init(context: Context) {
