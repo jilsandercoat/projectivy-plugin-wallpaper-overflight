@@ -47,7 +47,7 @@ object PreferencesManager {
         }
 
     var video_4k: Boolean
-        get() = PreferencesManager["video-4k", false]
+        get() = PreferencesManager["video-4k", true]
         set(value) { PreferencesManager["video-4k"]=value }
 
     var video_hdr: Boolean
@@ -55,7 +55,7 @@ object PreferencesManager {
         set(value) { PreferencesManager["video-hdr"]=value }
 
     var fallback: Boolean
-        get() = PreferencesManager["fallback", true]
+        get() = PreferencesManager["fallback", false]
         set(value) { PreferencesManager["fallback"]=value }
 
     var mediaSourceUrl: String
